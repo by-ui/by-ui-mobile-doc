@@ -1,44 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="renderer" content="webkit" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
-    <title>By-Ui-Mobile</title>
-    <script>
-      function toAnchor(target) {
-        let offsetTop = document.getElementById(target).offsetTop;
-        scrollbar.scrollTo(0, offsetTop + 120, 800);
-        let url =
-          window.location.href.split("#").length === 2
-            ? window.location.href + "#" + target
-            : window.location.href.split("#")[0] +
-              "#" +
-              window.location.href.split("#")[1] +
-              "#" +
-              target;
-        history.pushState("", "", url);
-      }
-    </script>
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link href="./vendors/library.d683f2b88dfea69bf32b.css" rel="stylesheet" />
-    <link href="./index.5c04110372627857d287.css" rel="stylesheet" />
-  </head>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="renderer" content="webkit" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+        <title>By-Ui-Mobile</title>
+        <script>
+            function toAnchor(target) {
+                let offsetTop = document.getElementById(target).offsetTop;
+                scrollbar.scrollTo(0, offsetTop + 120, 800);
+                let url =
+                    window.location.href.split("#").length === 2
+                        ? window.location.href + "#" + target
+                        : window.location.href.split("#")[0] +
+                          "#" +
+                          window.location.href.split("#")[1] +
+                          "#" +
+                          target;
+                history.pushState("", "", url);
+            }
+        </script>
+    <link rel="shortcut icon" href="./favicon.ico"><link href="./vendors/library.d683f2b88dfea69bf32b.css" rel="stylesheet"><link href="./index.3215aff217b58d414b3f.css" rel="stylesheet"></head>
 
-  <body>
-    <div id="by-ui"></div>
-    <script
-      type="text/javascript"
-      src="./vendors/manifest.b040b45959c83042b5b3.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./vendors/library.4b449c3ac1d79db6ceb0.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./index.035691c436470fb716b3.js"
-    ></script>
-  </body>
+    <body>
+        <div id="by-ui"></div>
+    <script type="text/javascript" src="./vendors/manifest.de87146424d3e9ac59f5.js"></script><script type="text/javascript" src="./vendors/library.572f7e72dbf6e9aebd7f.js"></script><script type="text/javascript" src="./index.64e69df6e4c789e7fbfb.js"></script></body>
 </html>
